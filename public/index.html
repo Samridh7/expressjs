@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index inside public</title>
+</head>
+<body> 
+    <p>this is a html file inside a public folder</p>
+    <a href="./a.html">a</a>
+    <!--action in form send the req to url entered in the "action"-->
+    <!-- the name or value which we pass in the input tag is fetched by the backend 
+        if we initailze input "name" with the value or name set in the backend-->
+    <form action="/form" method="post">
+      <input name="user" type="text">
+      <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
